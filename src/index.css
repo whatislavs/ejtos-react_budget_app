@@ -12,7 +12,6 @@ code {
     monospace;
 }
 
-.form-select option {
-    background-color: #198754;
-    color: #fff;
+#Location option {
+    color: rgb(94, 94, 94);
 }
