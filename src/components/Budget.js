@@ -22,7 +22,7 @@ const Budget = () => {
     return (
 <div className='alert alert-secondary'>
 <span>Budget: £{budget}</span>
-<input type="number" step="10" value={newBudget} onChange={handleBudgetChange} onBlur={handleSaveBudget} onKeyDown={handleKeyDown}></input>
+<input type="number" step="10" style={{width:'10rem'}} value={newBudget} onChange={handleBudgetChange} onKeyDown={handleKeyDown}></input>
 </div>
     );
 };
