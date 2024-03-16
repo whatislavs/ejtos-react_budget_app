@@ -67,7 +67,7 @@ export const AppReducer = (state, action) => {
                 };
             }
             else if (action.payload > 20000) {
-                alert("The upper limit for the budget is 20 000");
+                alert("The upper limit for the budget is 20 000"+state.currency);
                 return {
                     ...state,
                 };

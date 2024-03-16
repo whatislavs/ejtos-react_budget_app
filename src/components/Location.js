@@ -2,12 +2,13 @@ import React, { useContext } from 'react';
 import { AppContext } from '../context/AppContext';
 const Location = () => {
   const {dispatch } = useContext(AppContext);
-    const changeLocation = (val)=>{
+    
+  const changeLocation = (val)=>{
             dispatch({
                 type: 'CHG_CURRENCY',
                 payload: val,
             })
-    }
+}
     
   return (
         <div className='alert alert-secondary' style={{backgroundColor:'#93e499', color:'white'}}> Currency {
